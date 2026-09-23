@@ -53,18 +53,20 @@ https://viacep.com.br/ws/{cep}/json/
 
 ---
 
-## 🖼️ Telas do Aplicativo
+## 🖼️ Imagens do Aplicativo
 
-As imagens abaixo estão armazenadas em `assets/prints/`:
+### Splash
+![Splash](assets/prints/splash.png)
 
-| Tela | Imagem |
-|------|--------|
-| Splash | `assets/prints/splash.png` |
-| Home | `assets/prints/home.png` |
-| Menu | `assets/prints/menu.png` |
-| Cadastro | `assets/prints/cadastro.png` |
+### Home
+![Home](assets/prints/home.png)
 
----
+### Menu
+![Menu](assets/prints/menu.png)
+
+### Cadastro
+![Cadastro](assets/prints/cadastro.png)
+
 
 ## ⚙️ Estrutura de pastas
 
@@ -73,34 +75,28 @@ lib/
  ├── models/
  │    └── pessoa.dart
  ├── screens/
- │    ├── splash_screen.dart
- │    ├── home_screen.dart
- │    └── cadastro_screen.dart
- ├─�� services/
+ │    ├── splash.dart
+ │    ├── home.dart
+ │    └── cadastro.dart
+ ├── services/
  │    └── via_cep_service.dart
  └── main.dart
+
 assets/
  └── prints/
       ├── splash.png
       ├── home.png
       ├── menu.png
       └── cadastro.png
+  └── logo.png
 ```
-
----
-
-## 🏫 Informações do SENAI Jaguariúna
-
-- **Endereço:** Rua Anésia Venturini Zani, 62 – Centro, Jaguariúna/SP
-- **CEP:** 13911-014
-- **Telefone:** [ (19) 3837-6300 ](tel:1938376300)
 
 ---
 
 ## 🧑‍💻 Autor
 
 Desenvolvido por **[Seu Nome]**  
-Curso: **Desenvolvimento de Sistemas – SENAI Jaguariúna**  
+Curso: **Desenvolvimento de Sistemas**  
 Ano: **2026**
 
 ---
